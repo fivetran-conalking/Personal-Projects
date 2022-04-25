@@ -17,6 +17,12 @@ print("Reset-" +connectorName+ "-cursor-" +groupId+ ".json\n")
 print("**Commit title:**")
 print("modify-" +service+ "-" +connectorName+ "-cursor-" +groupId+ "\n")
 
+# Commit body format
+print('**Commit body:**')
+print('Changes: ')
+print('Reason: ')
+print('Zendesk: https://fivetran1813.zendesk.com/agent/tickets/'+str(ticketNumber)+ "\n")
+
 # Branch title
 print("**Branch title:**")
 print(myName+ "-modify-" + service + "-" +connectorName+ "-cursor-" +groupId+ "\n")
