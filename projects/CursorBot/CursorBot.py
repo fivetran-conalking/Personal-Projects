@@ -5,9 +5,10 @@ groupId = "unknown_cat"
 service = "stripe"
 connectorId = "routing_cod"
 ticketNumber = 81168
-isFree = "true"
+isFree = "true" #Is the resync going to be free? Almost always "true"
 
 # ----------------------------------------------------------------------------------
+#Only edit below here if you'd like to change your formatting
 
 # File name format
 print("**File name:**")
