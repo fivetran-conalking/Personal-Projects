@@ -13,6 +13,7 @@ isFree = "true" #Is the resync going to be free? Almost always "true"
 # File name format
 print("**File name:**")
 print("Reset-" +connectorName+ "-cursor-" +groupId+ ".json\n")
+fileName = "Reset-" +connectorName+ "-cursor-" +groupId+ ".json"
 
 # Commit title format
 print("**Commit title:**")
@@ -22,6 +23,8 @@ print("modify-" +service+ "-" +connectorName+ "-cursor-" +groupId+ "\n")
 print('**Commit body:**')
 print('Changes: ')
 print('Reason: ')
+print('group_id:', groupId)
+print('Connector:', connectorName)
 print('Zendesk: https://fivetran1813.zendesk.com/agent/tickets/'+str(ticketNumber)+ "\n")
 
 # Branch title
@@ -32,7 +35,7 @@ print("-------------------------------------------------------------------------
 
 # SALAMe
 print("**SALAMe Command:**")
-print("salame jobs create", str(ticketNumber), "standard modify_state -f Reset-" +service+ "-cursor-" +groupId+ ".json\n\n")
+print("salame jobs create", str(ticketNumber), "standard modify_state -f " +fileName+ "\n\n")
 
 print("------------------------------------------------------------------------------------------")
 
