@@ -2,7 +2,7 @@ CursorBot
 
 **What can CursorBot do for me?**
 
-CursorBot helps you modify cursors to save time, reduce error and to not break that CTRL+C/V button that we so dearly love. It allows you to enter 5 required values for modifying cursors: connectorName, groupId, service, connectorId, ticketNumber. The application then provides the following stings 
+CursorBot helps you modify cursors to save time, reduce error and to not break that CTRL+C/V button that we so dearly love. It allows you to enter 5 required values for modifying cursors: connectorName, groupId, service, connectorId, ticketNumber. The application then provides the following strings 
 1. File name
 2. Commit title
 3. COmmit body
