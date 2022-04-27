@@ -5,13 +5,13 @@ CursorBot
 CursorBot helps you modify cursors to save time, reduce error and to not break that CTRL+C/V button that we so dearly love. It allows you to enter 5 required values for modifying cursors: connectorName, groupId, service, connectorId, ticketNumber. The application then provides the following strings 
 1. File name
 2. Commit title
-3. COmmit body
+3. Commit body
 4. Branch title
 5. SALAMe script
 6. Modify state code block
 7. Cursor Query
 
-Please feel free to edit the application to match your own format if you preffer something different. Be sure to save a .py file of this edit.
+Please feel free to edit the application to match your own format if you prefer something different. Be sure to save a .py file if you choose to edit.
 
 **Where to run the script?**
 - If you have Python 3 installed locally, use VS Code and simply run it from there
