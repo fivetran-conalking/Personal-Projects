@@ -56,7 +56,7 @@ print("-------------------------------------------------------------------------
 
 #Cursor Query
 print("**Cursor Query**")
-print("SELECT i.service, i.owner, i.schema_name, c.integration_id, c.value, , i.service_version")
+print("SELECT i.service, i.owner, i.schema_name, c.integration_id, c.value, i.service_version")
 print("FROM  public.connector_cursors c")
 print("FULL JOIN public.integrations i ON c.integration_id = i.id")
 print("	WHERE i.owner = '"+groupId+"'")
