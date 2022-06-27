@@ -49,7 +49,7 @@ print('        "service": "'+service+'",')
 print('        "id": "'+connectorId+'",')
 print('        "schema_name": "'+connectorName+'"')
 print('    },')
-print('    "state":')
+print('    "state": ')
 print('}\n\n')
 
 print("------------------------------------------------------------------------------------------")
