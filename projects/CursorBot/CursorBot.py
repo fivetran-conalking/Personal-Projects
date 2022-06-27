@@ -1,10 +1,10 @@
 # Plug in your values here
 myName = "Jake-dalton"
-connectorName = "stripe_123"
+ticketNumber = 81168
 groupId = "unknown_cat"
+connectorName = "stripe_123"
 service = "stripe"
 connectorId = "routing_cod"
-ticketNumber = 81168
 isFree = "true" #Is the resync going to be free? Almost always "true"
 
 # ----------------------------------------------------------------------------------
