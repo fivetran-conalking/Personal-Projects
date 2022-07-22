@@ -1,6 +1,6 @@
 **What is this?**
 
-This is a series of Postman 'Collections' particular to the FinOps APIs. These psotman collections are to be imported into postman (see importing instructions below) to significantly aid in querying customers source APIs.
+This is a series of Postman 'Collections' particular to the FinOps APIs. These postman collections are to be imported into postman (see importing instructions below) to significantly aid in querying customers source APIs. With these collections, you will no longer need to look at API documentation. Simply navigate to the API you intend to query, find you target endpoint and select the target call. This will show exactly how you must query for your target. I recommend then importing an API call retrieved from a runmock or cURL decrypt and utilizing the collection only as a reference.
 
 **Download Instructions**
 1. Copy the directory URL (https://github.com/fivetran-jakedalton/Personal-Projects/tree/main/Postman%20API%20Collection:%20Holmes/All%20FinOps%20Collections)
