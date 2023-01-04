@@ -1,19 +1,10 @@
 # Plug in your values here
-myName = "Jake-dalton"
-ticketNumber = 81168
-groupId = "unknown_cat"
-connectorName = "stripe_123"
-service = "stripe"
-connectorId = "routing_cod"
-isFree = "true" #Is the resync going to be free? Almost always "true"
-
+ticketNumber = 119439
+groupId = "jealously_unrushed"
+connectorName = "fivetran__ironclad"
+service = "ironclad"
 # ----------------------------------------------------------------------------------
 #Only edit below here if you'd like to change your formatting
-
-# File name format
-print("**File name:**")
-print("Reset-" +connectorName+ "-cursor-" +groupId+ ".json\n")
-fileName = "Reset-" +connectorName+ "-cursor-" +groupId+ ".json"
 
 # Commit title format
 print("**Commit title:**")
@@ -26,33 +17,6 @@ print('Reason: ')
 print('group_id:', groupId)
 print('Connector:', connectorName)
 print('Zendesk: https://fivetran1813.zendesk.com/agent/tickets/'+str(ticketNumber)+ "\n")
-
-# Branch title
-print("**Branch title:**")
-print(myName+ "-modify-" + service + "-" +connectorName+ "-cursor-" +groupId+ "\n")
-
-print("------------------------------------------------------------------------------------------")
-
-# SALAMe
-print("**SALAMe Command:**")
-print("salame jobs create", str(ticketNumber), "standard modify_state -f " +fileName+ "\n\n")
-
-print("------------------------------------------------------------------------------------------")
-
-#Modify state insert
-print("**Modify state insert**")
-print('{')
-print('    "resync":'+isFree+',')
-print('    "where_clause": {')
-print('        "owner": "'+groupId+'",')
-print('        "service": "'+service+'",')
-print('        "id": "'+connectorId+'",')
-print('        "schema_name": "'+connectorName+'"')
-print('    },')
-print('    "state": ')
-print('}\n\n')
-
-print("------------------------------------------------------------------------------------------")
 
 #Cursor Query
 print("**Cursor Query**")
